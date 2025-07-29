@@ -89,11 +89,11 @@ Each test varies the sweep duration \( t_2 \) and analyzes the output waveform a
 
 | Case | Sweep Duration \( t_2 \) | Frequency Range       | Aliasing? |
 |------|--------------------------|------------------------|-----------|
-| 1    | 1 s                      | 1000–2000 Hz           | ❌ No     |
-| 2    | 2 s                      | 1000–1500 Hz           | ❌ No     |
-| 3    | 0.5 s                    | 1000–3000 Hz           | ❌ No     |
-| 4    | 0.2 s                    | 1000–4000 Hz           | ✅ Yes    |
-| 5    | 0.2 s                    | 1000–4000–2000 Hz      | ✅ Yes    |
+| 1    | 1 s                      | 1000–2000 Hz           |  No     |
+| 2    | 2 s                      | 1000–1500 Hz           |  No     |
+| 3    | 0.5 s                    | 1000–3000 Hz           |  No     |
+| 4    | 0.2 s                    | 1000–4000 Hz           |  Yes    |
+| 5    | 0.2 s                    | 1000–4000–2000 Hz      |  Yes    |
 
 ---
 
